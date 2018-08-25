@@ -9,6 +9,11 @@
         <p class="footnote">
         <time class="">{{ .Date.Format "01-02-2006" }}</time>
         {{ $baseurl := .Site.BaseURL }}
+
+        {{ if isset .Params "authors" }}
+          {{ range .Params.authors }}<a href="{{ $baseurl }}authors/{{ . | urlize }}">{{ . }}</a> {{ end }}
+        {{ end }}
+
         {{ if or .Params.tags .Params.categories .Params.series }}
         |
         {{ end }}
