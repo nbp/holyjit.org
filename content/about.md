@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2018-09-01
+date: 2018-08-25
 ---
 
 Making a Just-In-Time compiler is complex, a large source of security
