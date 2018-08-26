@@ -1,0 +1,30 @@
+baseURL = "https://holyjit.org/"
+# languageCode = "en-us"
+title = "HolyJit"
+theme = "temple"
+copyright = "License: Content <a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a>, Theme <a href='https://opensource.org/licenses/MIT'>MIT</a>"
+
+[params]
+  # Enables syntax highlighting
+  highlight = true 
+  # Supports highlighting for languages not included in the original pack
+  # See https://highlightjs.org/download/ for original pack
+  # For reference to all languages, see:
+  # https://github.com/isagalaev/highlight.js/tree/master/src/languages
+  hjslangs = ["nix", "rust", "diff"]
+  # Enables the topmenu, which pulls from categories
+  topmenu = "categories"
+
+# Builds a list page for each category given
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  authors = "authors"
+
+[author]
+  name = "Nicolas B. Pierron"
+  github = "nbp/holyjit"
+  email = "nicolas.b.pierron@holyjit.org"
+  # gaid = "Your Google Analytics ID"
+  # twitter = "twitterID"
+  # medium = "mediumUsername"
