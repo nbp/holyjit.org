@@ -3,6 +3,7 @@ baseURL = "https://holyjit.org/"
 title = "HolyJit"
 theme = "temple"
 copyright = "License: Content <a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a>, Theme <a href='https://opensource.org/licenses/MIT'>MIT</a>"
+enableRobotsTXT = true
 
 [params]
   # Enables syntax highlighting
